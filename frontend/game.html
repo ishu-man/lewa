@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+    <a class="navbar-item" id="logo-item">
+        Lewa
+    </a>
+      <a class="navbar-item">
+        Home
+      </a>
+
+      <a class="navbar-item">
+        About
+      </a>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="hero is-success">
+  <div class="hero-body">
+    <p class="title">Let's play a game!</p>
+    <p class="subtitle">Type the below text while being as accurate as possible. Use the custom GACL keyboard for any help.</p>
+  </div>
+</section>
+<div class="game-box">
+
+<div class="box mt-5 has-background-black">
+                <div class="content is-large" id="lesson-text">
+                    <!-- Should be Dynamically filled by JavaScript -->
+                    M̀bɔ́lɔ́ ńtɔ́ŋ́ ǹdém bò lòndó è sómbólá è bòlóbò.
+                </div>
+            </div>
+<div class="field">
+                <div class="control">
+                    <input id="user-input" class="input is-large has-background-black" type="text" placeholder="Type the text above..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" autofocus="">
+                </div>
+            </div>
+
+<div class="box has-background-black" id="keyboard">
+    
+    <div class="buttons is-centered mb-4">
+        <button class="button is-large is-info border-1" onclick="insertChar('ɛ')">ɛ</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('e')">e</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('ə')">ə</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('ɔ')">ɔ</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('o')">o</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('a')">a</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('ɑ')">ɑ</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('i')">i</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('ɨ')">ɨ</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('u')">u</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('ʉ')">ʉ</button>
+    </div>
+
+    <div class="buttons is-centered mb-4">
+        <button class="button is-large is-info border-1" onclick="insertChar('ŋ')">ŋ</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('ɲ')">ɲ</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('ɓ')">ɓ</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('ɗ')">ɗ</button>
+        <button class="button is-large is-info border-1" onclick="insertChar('ʔ')">ʔ</button>
+    </div>
+
+    <div class="buttons is-centered">
+        <button class="button is-large is-warning " onclick="insertChar('´')">´</button>
+        <button class="button is-large is-warning " onclick="insertChar('`')">`</button>
+        <button class="button is-large is-warning " onclick="insertChar('ˆ')">ˆ</button>
+        <button class="button is-large is-warning " onclick="insertChar('ˇ')">ˇ</button>
+        <button class="button is-large is-warning " onclick="insertChar('¯')">¯</button>
+    </div>
+    
+</div>
+</div>
+
+<footer class="footer mt-5">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Lewa</strong> by <a href="https://github.com/osscameroon">osscameroon</a>.
+      The source code is licensed
+      <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License 2.0</a>.
+    </p>
+  </div>
+</footer>
+
+
+    
+</body>
+</html>

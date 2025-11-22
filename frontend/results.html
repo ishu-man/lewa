@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+    <a class="navbar-item" id="logo-item">
+        Lewa
+    </a>
+      <a class="navbar-item">
+        Home
+      </a>
+
+      <a class="navbar-item">
+        About
+      </a>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+    <section class="section">
+    <div class="container is-max-desktop">
+        
+        <div class="has-text-centered mb-6">
+            <h1 class="title is-1">Game Over!</h1>
+            <p class="subtitle is-4">
+                You scored <span id="final-points" class="has-text-weight-bold has-text-primary">0</span> points
+            </p>
+        </div>
+
+        <div class="box">
+            <h2 class="title is-4 mb-4">🏆 Top Players</h2>
+            
+            <div class="table-container">
+                <table class="table is-fullwidth is-striped is-hoverable">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>User</th>
+                            <th>Accuracy</th>
+                            <th class="has-text-right">Points</th>
+                        </tr>
+                    </thead>
+                    <tbody id="score-list">
+                        </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="buttons is-centered mt-6">
+            <a href="index.html" class="button is-primary is-large">
+                <span>Play Again</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer mt-5">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Lewa</strong> by <a href="https://github.com/osscameroon">osscameroon</a>.
+      The source code is licensed
+      <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License 2.0</a>.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
